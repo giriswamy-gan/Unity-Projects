@@ -9,7 +9,8 @@ public class movement2D : MonoBehaviour
     public Animator animator;
     //Serialize Field initializes value
     public float speed = 10f;
-    public float jump_force ;
+    public float jump_force = 15f;
+    public float punch_force = 10f;
     bool isGrounded = false; 
     public Transform isGroundedChecker; 
     public float checkGroundRadius = 0.1f; 
@@ -25,6 +26,7 @@ public class movement2D : MonoBehaviour
     {
         Move();
         Jump();
+        Punch();
         CheckIfGrounded();
     }
     
@@ -48,7 +50,14 @@ public class movement2D : MonoBehaviour
     void Jump(){
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded){
             rb.velocity = new Vector2(rb.velocity.x, jump_force);
-            animator.SetBool("Space",true);
+            animator.SetTrigger("Space");
+        }
+    }
+    //Player punch
+    void Punch(){
+        if(Input.GetButton("Fire1"))
+        {
+            animator.SetTrigger("Punch");
         }
     }
     //Checking if on Ground
