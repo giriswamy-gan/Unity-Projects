@@ -10,7 +10,6 @@ public class movement2D : MonoBehaviour
     //Serialize Field initializes value
     public float speed = 10f;
     public float jump_force = 15f;
-    public float punch_force = 10f;
     bool isGrounded = false; 
     public Transform isGroundedChecker; 
     public float checkGroundRadius = 0.1f; 
@@ -27,6 +26,7 @@ public class movement2D : MonoBehaviour
         Move();
         Jump();
         Punch();
+        Kick();
         CheckIfGrounded();
     }
     
@@ -53,6 +53,13 @@ public class movement2D : MonoBehaviour
             animator.SetTrigger("Space");
         }
     }
+    //Player Kick
+    void Kick(){
+        if(Input.GetButton("Fire2"))
+        {
+            animator.SetTrigger("Kick");
+        }
+    }
     //Player punch
     void Punch(){
         if(Input.GetButton("Fire1"))
@@ -62,11 +69,12 @@ public class movement2D : MonoBehaviour
     }
     //Checking if on Ground
     void CheckIfGrounded() { 
-    Collider2D collider = Physics2D.OverlapCircle(isGroundedChecker.position, checkGroundRadius, groundLayer); 
-    if (collider != null) { 
-        isGrounded = true;
-    } else { 
-        isGrounded = false;
-    } 
-}
+        Collider2D collider = Physics2D.OverlapCircle(isGroundedChecker.position, checkGroundRadius, groundLayer); 
+        if (collider != null) { 
+            isGrounded = true;
+        } 
+        else { 
+            isGrounded = false;
+        } 
+    }
 }

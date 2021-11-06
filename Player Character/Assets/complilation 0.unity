@@ -197,7 +197,12 @@ MonoBehaviour:
 
     D: Move Right
 
-    Space: Jump'
+    Space: Jump
+
+    Fire1: Punch
+
+    Fire2:
+    Kick'
 --- !u!222 &82018552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -517,7 +522,7 @@ GameObject:
   - component: {fileID: 552640105}
   m_Layer: 0
   m_Name: Main Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -656,7 +661,6 @@ MonoBehaviour:
   animator: {fileID: 552640110}
   speed: 10
   jump_force: 15
-  punch_force: 10
   isGroundedChecker: {fileID: 459170145}
   checkGroundRadius: 0.1
   groundLayer:
@@ -695,6 +699,7 @@ GameObject:
   - component: {fileID: 641341859}
   - component: {fileID: 641341863}
   - component: {fileID: 641341858}
+  - component: {fileID: 641341864}
   m_Layer: 0
   m_Name: punching bag
   m_TagString: Enemy_body
@@ -844,6 +849,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.01}
   m_Size: {x: 0.4, y: 0.8}
   m_Direction: 0
+--- !u!114 &641341864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641341857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea84c91047c93b42ba5093601604d03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwback: 20
 --- !u!1 &669643766
 GameObject:
   m_ObjectHideFlags: 0
