@@ -3,8 +3,8 @@
 Player Character is for the 2D PVP
 Currently supports movement, jumping and punching, animations have been smoothened. 
 Flaws/bugs:
-1.Damage has not been fully implemented(Needs UI)
-2.No UI
+1. Player 2 working underway
+2.UI needs adjustments
 3.*NO MULTIPLAYER*
 
 * Tutorials:
