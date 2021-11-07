@@ -25,6 +25,7 @@ public class Ammo_pickup : MonoBehaviour
             
             Player_controller.instance.CurrentAmmo += ammoAmount;
             Destroy(gameObject);
+            Player_controller.instance.updateAmmoUI();
         }    
         //Debug.Log("Working");
     }

@@ -38,11 +38,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Destroy_over_time.cs" />
      <Compile Include="Assets\Scripts\Ammo_pickup.cs" />
+     <Compile Include="Assets\Scripts\Enemy_bullet.cs" />
      <Compile Include="Assets\Scripts\Enemy_controller.cs" />
      <Compile Include="Assets\Scripts\Billboard.cs" />
-     <Compile Include="Assets\Scripts\Player_controller.cs" />
      <Compile Include="Assets\Scripts\Reload_scene.cs" />
-     <Compile Include="Assets\Scripts\Enemy_bullet.cs" />
+     <Compile Include="Assets\Scripts\Player_controller.cs" />
+     <Compile Include="Assets\Scripts\Health_pickup.cs" />
+     <Compile Include="Assets\Scripts\Game_manager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
