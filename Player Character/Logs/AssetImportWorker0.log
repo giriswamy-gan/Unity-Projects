@@ -1,0 +1,260 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 22000.282; Version 2009; 64bit' Language: 'en' Physical Memory: 16075 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/My Documents/Unity Files/Unity/Player Character
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1301
+Successfully changed project path to: D:/My Documents/Unity Files/Unity/Player Character
+D:/My Documents/Unity Files/Unity/Player Character
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/My Documents/Unity Files/Unity/Player Character/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   
+    VRAM:     3991 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001135 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (33ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (323ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (107ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (122ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.9 MB.
+System memory in use after: 98.0 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 2.847100 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.047800 ms MarkObjects: 2.535300 ms  DeleteObjects: 0.077200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PrototypeHero_noSword_crouch-1.png.png
+  artifactKey: Guid(b168c1960a342bf42afe843a34de2d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrototypeHero_noSword_crouch-1.png.png using Guid(b168c1960a342bf42afe843a34de2d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106fc7b66a2168efcf72d15a459b3126') in 0.102044 seconds 
+  Import took 0.105251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/punching bag(1)(1).png
+  artifactKey: Guid(37f71c1db60645441b1db67b4815e853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/punching bag(1)(1).png using Guid(37f71c1db60645441b1db67b4815e853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4e2cdabebcaf8fca232173ab1a4c93') in 0.017483 seconds 
+  Import took 0.020931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/PrototypeHero_noSword_crouch-1.png(1).png
+  artifactKey: Guid(80bb0c1c80643e24791130acee5c0958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PrototypeHero_noSword_crouch-1.png(1).png using Guid(80bb0c1c80643e24791130acee5c0958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7435087b66637664c309305615ae5867') in 0.017484 seconds 
+  Import took 0.020903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Frictionlessness.physicsMaterial2D
+  artifactKey: Guid(369c95fafd4821d428668aae7c169e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Frictionlessness.physicsMaterial2D using Guid(369c95fafd4821d428668aae7c169e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852a573853ac6be520cf67788bddb859') in 0.015642 seconds 
+  Import took 0.019228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/punching bag(1).png
+  artifactKey: Guid(6db3cc36bf9f4a045b536075d0fd6eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/punching bag(1).png using Guid(6db3cc36bf9f4a045b536075d0fd6eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5373434a5344d93ae8ab489ee9786f') in 0.019283 seconds 
+  Import took 0.022684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.683463 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/Background.png
+  artifactKey: Guid(d9c5f41937dce6a4aaea431fd404415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/Background.png using Guid(d9c5f41937dce6a4aaea431fd404415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2922abcc1ac966cdbe6a21d92dc6c5') in 0.014160 seconds 
+  Import took 0.017494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/Heart.png
+  artifactKey: Guid(a1081d987b9814740be887f0e6b3fcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/Heart.png using Guid(a1081d987b9814740be887f0e6b3fcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5341adf34887a2e29063a0c5950467f3') in 0.015675 seconds 
+  Import took 0.020289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/bgmainmenu.jpg
+  artifactKey: Guid(f398344df9aff3e4c98c197d816d10c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/bgmainmenu.jpg using Guid(f398344df9aff3e4c98c197d816d10c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a6478cf1c4e0a26a2c107bd6d2d4ce') in 0.028749 seconds 
+  Import took 0.033188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/EnvironmentTiles.png
+  artifactKey: Guid(7706d4b3f7d8d2e42b82d09010a105ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/EnvironmentTiles.png using Guid(7706d4b3f7d8d2e42b82d09010a105ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afcb578e7c4ad1faa4b9e72309f5810') in 0.025355 seconds 
+  Import took 0.028753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero_noSword_crouch.png
+  artifactKey: Guid(13499aefb2a044946995c6531da3f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero_noSword_crouch.png using Guid(13499aefb2a044946995c6531da3f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd0f18a2c3aab3fbed3b6f841630b49') in 0.032746 seconds 
+  Import took 0.036460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero_noSword.png
+  artifactKey: Guid(0409f2fddf07780408257c186ab69681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero_noSword.png using Guid(0409f2fddf07780408257c186ab69681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48283c00c0ef83bc5836a120706f1df5') in 0.077232 seconds 
+  Import took 0.080515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero_combination.png
+  artifactKey: Guid(6cbb4e13c3df55f43b6624151662bff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero_combination.png using Guid(6cbb4e13c3df55f43b6624151662bff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef897a5afcfa15b254d54a521d5549fe') in 0.087420 seconds 
+  Import took 0.090903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero.png
+  artifactKey: Guid(300ea1a5869382b43bf6149aba92c4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/PrototypeHero.png using Guid(300ea1a5869382b43bf6149aba92c4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62b33b5e838b48a98b2e0bce940c625') in 0.070818 seconds 
+  Import took 0.075422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/Dust.png
+  artifactKey: Guid(197dc101be73bc64ebf9c4837ee28a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/Dust.png using Guid(197dc101be73bc64ebf9c4837ee28a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cfba77e0178c1fa37277f6ef4407ba') in 0.050643 seconds 
+  Import took 0.054019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites/Bar.png
+  artifactKey: Guid(c9a95b8344f5f754592b3d1d3c2567ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites/Bar.png using Guid(c9a95b8344f5f754592b3d1d3c2567ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e9274788dd03bf6579ecc7f25add8c') in 0.016695 seconds 
+  Import took 0.021016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.440554 seconds.
+  path: Assets/Prototype Hero Demo - Pixel Art/Sprites
+  artifactKey: Guid(fe0dd8d84ad077a439f068110a4c1145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prototype Hero Demo - Pixel Art/Sprites using Guid(fe0dd8d84ad077a439f068110a4c1145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c1aac235d2691acf06ad39445d109f') in 0.009051 seconds 
+  Import took 0.012969 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
